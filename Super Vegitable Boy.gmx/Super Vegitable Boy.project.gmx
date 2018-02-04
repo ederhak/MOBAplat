@@ -41,8 +41,6 @@
     <object>objects\obj_creep_1</object>
     <object>objects\obj_creep_2</object>
     <object>objects\obj_controller</object>
-    <object>objects\obj_team_1</object>
-    <object>objects\obj_team_2</object>
     <object>objects\obj_projectile</object>
     <object>objects\obj_stab_1</object>
     <object>objects\obj_stab_2</object>

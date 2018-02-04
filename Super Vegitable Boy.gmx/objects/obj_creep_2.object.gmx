@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_team_2</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>grav = 0.2; hsp = 0; vsp = 0; jumpSpeed = 4; moveSpeed = 2;
 team = global.blue;
+color = "blue";
 </string>
           </argument>
         </arguments>
@@ -194,7 +195,7 @@ other.damage++;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_tower_1">
+    <event eventtype="4" ename="obj_player_1">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -218,7 +219,7 @@ other.damage++;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_player_1">
+    <event eventtype="4" ename="obj_tower_1">
       <action>
         <libid>1</libid>
         <id>603</id>

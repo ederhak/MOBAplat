@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_team_1</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>spr_mask</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -39,6 +39,7 @@ moveSpeed = agility/toughness*2;
 damage = 0;
 team = c_fuchsia;
 kAttack = 0;
+color = "red";
 </string>
           </argument>
         </arguments>
@@ -62,7 +63,7 @@ kAttack = 0;
           <argument>
             <kind>1</kind>
             <string>if damage &gt; 0 {
-hitpoints -= damage - damage*0.01*toughness;
+hitpoints -= damage - 0.01*toughness/damage;
 damage = 0;
 }
 if hitpoints &lt; 0 {
@@ -89,6 +90,7 @@ create.image_xscale = image_xscale;
 if image_xscale {create.direction = 0} else {create.direction = 180;}
 create.speed = 4;
 create.source = self;
+create.team = team;
 }
 }
 

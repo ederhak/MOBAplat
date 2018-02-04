@@ -56,7 +56,7 @@ instance_destroy();
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_tower_1">
+    <event eventtype="4" ename="obj_player_1">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -80,7 +80,7 @@ instance_destroy();
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_player_1">
+    <event eventtype="4" ename="obj_tower_1">
       <action>
         <libid>1</libid>
         <id>603</id>

@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_team_1</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -33,6 +33,7 @@ alarm[0] = 99/willpower;
 spawn = 0;
 damage = 0;
 team = global.red;
+color = "red";
 </string>
           </argument>
         </arguments>
@@ -135,7 +136,7 @@ alarm[1] = 12;
           <argument>
             <kind>1</kind>
             <string>if damage &gt; 0 {
-hitpoints -= damage + damage*0.01*toughness;
+hitpoints -= damage + 0.01*toughness/damage;
 damage = 0;
 }
 if hitpoints &lt; 1 {
