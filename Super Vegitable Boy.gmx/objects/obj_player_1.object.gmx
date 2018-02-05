@@ -76,7 +76,7 @@ y = ystart;
 hitpoints = maxhp;
 }
 
-kLeft = -keyboard_check(vk_left); kRight = keyboard_check(vk_right); kJump = keyboard_check(vk_up); kAttack = keyboard_check(vk_numpad0);
+kLeft = -keyboard_check(vk_left); kRight = keyboard_check(vk_right); kJump = keyboard_check(vk_up); kAttack = keyboard_check(vk_space);
 if -kLeft + kRight - 2*kAttack == 1||-1 {sprite_index = spr_astro_walk;} else if !kAttack {sprite_index = spr_astro_stand image_speed = 1;}
 if kJump sprite_index = spr_astro_jump;
 if kAttack {sprite_index = spr_astro_shoot;}
