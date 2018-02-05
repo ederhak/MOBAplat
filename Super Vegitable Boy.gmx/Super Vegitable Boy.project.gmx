@@ -24,6 +24,7 @@
     <sprite>sprites\spr_astro_shoot</sprite>
     <sprite>sprites\spr_astro_stand</sprite>
     <sprite>sprites\spr_astro_jump</sprite>
+    <sprite>sprites\spr_frog_tongue</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_standard</background>
@@ -45,7 +46,9 @@
     <object>objects\obj_stab_1</object>
     <object>objects\obj_stab_2</object>
     <object>objects\obj_particle</object>
+    <object>objects\obj_frog_tongue</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room0</room>
   </rooms>
